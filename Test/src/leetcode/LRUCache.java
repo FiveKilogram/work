@@ -21,6 +21,14 @@ class LRUCache extends LinkedHashMap<Integer,Integer>{
 		}
 		return false;
 	}
+	
+	
+
+	@Override
+	public Integer get(Object arg0) {
+		// TODO Auto-generated method stub
+		return super.get(arg0);
+	}
 
 	public int get(int key) {
 		if(this.containsKey(key))
